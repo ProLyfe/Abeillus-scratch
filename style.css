@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #FDEFDA;
+}
+
+/* DEBUT STYLE DES 6 SECTIONS */
+.section1 {
+    background-color: #273557;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.section2 {
+    background-color: #FDEFDA;
+    width: 100%;
+    height: 105%;
+}
+
+.section3 {
+    background-color: #273557;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    
+}
+
+.section4 {
+    background-color: #FDEFDA;
+    width: 100%;
+    height: 105%;
+    text-align: center;
+}
+
+
+.section5 {
+    background-color: #273557;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-top: 159px;
+    
+}
+
+.section6 {
+  background-color: #FDEFDA;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  margin-top: 159px;
+  color: #273557;
+  
+}
+/* FIN STYLE DES 6 SECTIONS */
+
+
+.logo {
+    width: 1300px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+/* DEBUT HEADER */
+header {
+    height: 70px;
+    background-color: #FDEFDA;
+}
+
+.navPrincipale {
+    text-align: right;
+    padding-right: 160px;
+}
+
+.menu {
+    text-decoration: none;
+    line-height: 3.9;
+    padding-right: 30;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.logoNav {
+    position: absolute;
+    width: 300px;
+    margin-top: 17px;
+    margin-left: 29px;
+}
+/* FIN HEADER */
+
+
+
+
+
+h2 {
+    color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 40px;
+  }
+
+.three {
+  grid-column: 3;
+  grid-row: 1 / 5;
+  background-color: #273557;
+  width: 600px;
+  }
+
+.two {
+  grid-column: 4;
+  grid-row: 1 / 5;
+  }
+
+
+
+.collection {
+    padding-left: 30px;
+    color: #FDEFDA;
+    font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.maison {
+    color: white;
+    padding-top: 30px;
+    font-family: 'Libre Baskerville';
+    font-size: 50px;
+    
+}
+
+.hr1 {
+    width: 10%;
+    margin: auto;
+}
+
+
+.w3-button {
+    height: 60;
+    width: 300;
+    margin-top: 40px;
+    border: 2px solid #FDEFDA;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.quiSommes {
+    padding-top: 110px;
+}
+
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-top: 40px;
+
+}
+.one2 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.two2 { 
+  grid-column: 2 / 2;
+  grid-row: 1 / 2;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 35px;
+}
+
+.three2 {
+  grid-column: 1 / 2;
+  grid-row: 2;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 35px;
+}
+.four2 { 
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+
+
+.exclu {
+    color: #273557;
+    padding-top: 30px;
+    font-family: 'Libre Baskerville';
+    font-size: 50px;
+    
+    
+}
+
+.hr2 {
+    width: 100%;
+    margin: auto;
+    color: #273557;
+    margin-top: 1px;
+
+}
+
+.hr3 {
+    width: 100%;
+    margin: auto;
+    color: #273557;
+    margin-top: 1px;
+
+}
+
+.hima {
+    color: #273557;
+    font-family: 'Libre Baskerville';
+}
+
+span {
+    color: red;
+    font-family: 'Libre Baskerville';
+    font-size: 40px
+}
+
+.soutien {
+    height: 60;
+    width: 300;
+    margin-top: 10px;
+    border: 2px solid #273557;;
+    color: #273557;
+    font-size: 20px;
+}
+
+
+
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 80px;
+  }
+  .one3 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    text-align: center;
+  }
+  .two3 { 
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .three3 {
+    grid-column: 3 / 3;
+    grid-row: 1;
+    text-align: left;
+  }
+
+.icones1 {
+    height: 190px;
+    padding-right: 130px;
+}
+.icones2 {
+  height: 190px;
+}
+.icones3 {
+  height: 220px;
+}
+
+.titre1 {
+  color:#FDEFDA;
+  padding-right: 130px;
+}
+
+.titre2 {
+  color:#FDEFDA;
+}
+
+.titre3 {
+  color:#FDEFDA;
+  padding-left: 50;
+  margin-top: -21px;
+}
+
+.para1 {
+  color: #FDEFDA;
+  font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  padding-right: 130px;
+}
+
+.para2 {
+  color: #FDEFDA;
+  font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.para3 {
+  color: #FDEFDA;
+  font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+
+
+
+
+.info {
+  color: #273557;
+  margin-top: -100px;
+  font-family: 'Libre Baskerville';
+  font-size: 50px;
+  
+}
+
+.dispo {
+  padding-top: 40px;
+  color: #273557;
+}
+
+
+.contacter {
+  height: 60;
+  width: 300;
+  margin-top: 40px;
+  border: 2px solid #273557;
+  color: #273557;
+  font-size: 20px;
+  
+}
+
+
+
+/* DEBUT FOOTER 1 */
+.footer1 {
+  margin-top: 30px;
+  height: 65%;
+  background-color: #273557;
+  text-align: center;
+}
+
+.logo2 {
+  height: 40%;
+  padding-top: 60px;
+}
+
+.coor {
+  padding-top: 30px;
+  color: #FDEFDA;
+}
+
+h5 {
+  color: #FDEFDA;
+}
+/* FIN FOOTER 1 */
+
+
+/* DEBUT FOOTER 2 */
+.footer2 {
+  margin-top: -10px;
+  height: 8%;
+  background-color: #1E2849;
+  text-align: center;
+}
+
+.socialNav {
+  text-align: center;
+}
+.social {
+  height: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mentions {
+  padding-top: 30px;
+}
+/* FIN FOOTER 2 */
+
+
+
+
+
+
+
+
+/* PAGE LA MARQUE */
+
+.laMaison {
+  color: #FDEFDA;
+  padding-top: 30px;
+  font-family: 'Libre Baskerville';
+  font-size: 50px;
+  padding-top: 70px;
+}
+
+
+.passion {
+  padding-left: 30px;
+  color: #FDEFDA;
+  font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.sectionMarque1 {
+  background-color: #273557;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+}
+
+.wrapperMarque {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
+
+}
+.oneMarque {
+  grid-column: 2 / 2;
+  grid-row: 1;
+  padding-left: 200px;
+}
+.twoMarque { 
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 125px;
+}
+
+.threeMarque {
+  grid-column: 2 / 2;
+  grid-row: 2;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 35px;
+}
+.fourMarque { 
+  grid-column: 1 / 2;
+  grid-row: 2 / 2;
+}
+
+
+.paraMaison {
+  color: #1E2849;
+  font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 17px;
+}
