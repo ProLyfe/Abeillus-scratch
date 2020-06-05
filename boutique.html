@@ -1,0 +1,79 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Abeillus</title>
+</head>
+<body class="corpss">
+    <header>
+        <a href="marque.html"><img src="logoNav.png" alt="" class="logoNav"></a>
+        <nav class="navPrincipale">
+            <a href="" class="menu">Bougies parfumées</a>
+            <a href="marque.html" class="menu">La marque</a>
+            <a href="" class="menu">Boutique</a>
+            <a href="" class="menu">Contact</a>
+        </nav>
+    </header>
+
+    
+        <div class="cata"></div> 
+   
+
+
+
+
+    <section class="section6">
+        <h1 class="info">Besoin d'informations ?</h1>
+        <h2 class="dispo">Nous sommes à votre disposition !</h2>
+        <button class="w3-button contacter">NOUS CONTACTER</button>
+    </section>
+
+<footer class="footer1bis">
+    <img src="homescreen/logo2.png" alt="" class="logo2">
+    <h2 class="coor">Coordonnées : </h2>
+    <h5><strong>Adresse :</strong> 14 rue du Port, Nanterre, 92000</h5>
+    <h5><strong>Téléphone :</strong> 01 86 90 59 30</h5>
+    <h5><strong>Mail :</strong> Contact@abeillus.com</h5>
+    <h2 class="coor">Réseaux Sociaux : </h2>
+    <nav class="socialNav">
+        <a href="https://www.facebook.com/abeillusfragrance"><img src="homescreen/facebook.png" alt="" class="social"></a>
+        <a href="https://www.instagram.com/abeillus/"><img src="homescreen/instagram.png" alt="" class="social"></a>
+        <a href="https://www.linkedin.com/company/abeillus-fragrance/"><img src="homescreen/linkedin.png" alt="" class="social"></a>
+    </nav>
+</footer>
+<footer class="footer2bis">
+    <h5 class="mentions">Mentions Légales | © ABEILLUS 2019, Tous droits réservés</h5>
+</footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBZX_OJw8ORNlH7CJAE84ITg97BxlzouaA",
+    authDomain: "abeillus.firebaseapp.com",
+    databaseURL: "https://abeillus.firebaseio.com",
+    projectId: "abeillus",
+    storageBucket: "abeillus.appspot.com",
+    messagingSenderId: "1037957905214",
+    appId: "1:1037957905214:web:940461f3fa23c3c7188a6f",
+    measurementId: "G-QT194717CJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.firestore()
+</script>
+  <script src="app2.js"></script>
+</body>
+</html>

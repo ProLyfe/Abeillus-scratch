@@ -558,3 +558,78 @@ input[type=submit]:hover {
 }
 
 /* FIN FORMULAIRE */
+.corpss {
+  background-color: #273557;
+}
+
+
+.rounded {
+  background-color: #FDEFDA;
+  margin: 10px;
+
+}
+
+.cata {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 60%;
+  margin-top: 10%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+
+
+/* DEBUT FOOTER 1BIS */
+.footer1bis {
+  margin-top: 80px;
+  height: 65%;
+  background-color: #273557;
+  text-align: center;
+  
+}
+
+.logo2 {
+  height: 40%;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.coor {
+  padding-top: 30px;
+  color: #FDEFDA;
+}
+
+h5 {
+  color: #FDEFDA;
+}
+/* FIN FOOTER 1BIS */
+
+
+/* DEBUT FOOTER 2BIS */
+.footer2bis {
+  margin-top: -10px;
+  height: 8%;
+  background-color: #1E2849;
+  text-align: center;
+  
+}
+
+.socialNav {
+  text-align: center;
+  margin: auto;
+}
+.social {
+  height: 8%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+
+}
+
+.mentions {
+  padding-top: 30px;
+}
+/* FIN FOOTER 2BIS */
